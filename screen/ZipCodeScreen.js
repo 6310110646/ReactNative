@@ -4,13 +4,13 @@ import { TouchableHighlight } from 'react-native-gesture-handler'
 import { useNavigation } from '@react-navigation/native'
 
 const availableZipItems = [
-  { place: "Hatyai", code: "90110" },
-  { place: "Trang", code: "92000" },
-  { place: "Chiangmai", code: "50000" },
-  { place: "Khonkaen", code: "40000" },
-  { place: "Bangkok", code: "10000" },
-  { place: "Khonkaen", code: "40000" },
-  { place: "Udonthani", code: "41000" },
+    { place: "Hatyai", code: "90110" },
+    { place: "Trang", code: "92000" },
+    { place: "Chiangmai", code: "50000" },
+    { place: "Khonkaen", code: "40000" },
+    { place: "phuket", code: "83000" },
+    { place: "Bangkok", code: "10000" },
+    { place: "Yasothon", code: "35000" },
 ]
 
 const ZipItem = ({place, code, navigation}) => (
