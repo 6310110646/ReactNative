@@ -96,10 +96,4 @@ const styles = StyleSheet.create({
         marginTop: 10
     },
 
-    am: {
-        fontSize: 30,
-        color: 'white',
-        fontWeight: '300',
-        textAlign: 'center'
-    }
 });
