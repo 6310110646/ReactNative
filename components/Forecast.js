@@ -25,16 +25,17 @@ const style = StyleSheet.create(
             fontSize: 20,
             fontWeight: "bold",
             color: 'white',
+            fontWeight: '300'
 
         },
 
         Text: {
-            fontSize: 40, 
+            fontSize: 35, 
             fontWeight: "bold", 
             color: 'white', 
             textAlign: 'center',
-            lineHeight: 60
-
+            lineHeight: 60,
+            fontWeight: '400'
         }
     }
 )
